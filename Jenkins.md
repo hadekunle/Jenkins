@@ -38,4 +38,17 @@ You can check the status of the Jenkins service using the command
 sudo systemctl status jenkins
 ```
 
+Enable the Jenkins service to start at boot
+```css
+sudo systemctl enable jenkins
+```
+
+Start Jenkins as a service
+```css
+sudo systemctl start jenkins
+```
+
+
+
+
 Configure Jenkins [here](https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/#configuring-jenkins)
