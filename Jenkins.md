@@ -1,6 +1,6 @@
 
 
-Installing Jenkins on EC2 server
+## Installing Jenkins on EC2 server
 
 Ensure that your software packages are up to date on your instance by uing the following command to perform a quick software update:
 
