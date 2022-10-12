@@ -33,11 +33,6 @@ Install Jenkins
 sudo yum install jenkins -y
 ```
 
-You can check the status of the Jenkins service using the command
-```css
-sudo systemctl status jenkins
-```
-
 Enable the Jenkins service to start at boot
 ```css
 sudo systemctl enable jenkins
@@ -48,7 +43,9 @@ Start Jenkins as a service
 sudo systemctl start jenkins
 ```
 
-
-
+You can check the status of the Jenkins service using the command
+```css
+sudo systemctl status jenkins
+```
 
 Configure Jenkins [here](https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/#configuring-jenkins)
