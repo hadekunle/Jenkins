@@ -10,7 +10,8 @@ sudo yum update –y
 
 Add the Jenkins repo using the following command:
 ```css
-sudo wget -O /etc/yum.repos.d/jenkins.repo \ https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
 ```
 
 Import a key file from Jenkins-CI to enable installation from the package:
@@ -53,7 +54,8 @@ sudo systemctl status jenkins
 One click user-data
 ```css
 sudo yum update –y
-sudo wget -O /etc/yum.repos.d/jenkins.repo \ https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 sudo yum upgrade
 sudo amazon-linux-extras install java-openjdk11 -y
